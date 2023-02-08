@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width">
+            <title>D. James Fulton</title>
+            <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+        </head>
+
+    <!--Body-->
+        <body class="Background">
+
+    <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a class="active" href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+    <!--Breaks so theres spacing between heading and Navbar-->
+        <br>
+        <br>
+
+    <!--Background vid-->
+        <div id="Home">
+            <video autoplay muted loop id="Electronics_vid">
+                <source src="./videos/Electronics - 5364.mp4" type="video/mp4">
+                <!--display if vid doesnt load-->
+                Your cannot access this video, does not support HTML5.
+            </video>
+        </div>
+
+    <!--vid text-->
+        <div class="Video_Text">
+            <h1 class="white-text">James' Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no sttage director, no emperor, however powerful, has ever exercised such absolute to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br> -Joseph Weizenbaum
+                    <br>
+                    <br> My name is James. Welcome to my website! On my website, I will tell you about my background and experience so far as a computer programmer.
+                    <br>
+                    <br> Appreciate you taking the time to look at my portfolio! Enjoy!
+                </p>
+            </strong>
+        </div>
+    
+    <!--About section-->
+        <div class="Row" id="About">
+            <!--Left Column-->
+                <div class="Column_2">
+                    <img src="./images/keyboard-g108056321_1280.jpg" alt="Keyboard">
+                </div>
+            <!--Right column-->
+                <div class="Column_1">
+                    <h1>About</h1>
+                    <p>
+                        I am a software developer who loves to code! As a father to two, I like to spend time with my family and being outdoors.
+                        <br>
+                        <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                        <br>
+                        <br>I am a full stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
+                    </p>
+                </div>        
+        </div>
+
+    <!--Github section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+                <div class="Column_1">
+                    <h1>GitHub</h1>
+                    <p>
+                        You can view my coding projects on my GitHub profile here:
+                        <br>
+                        <p class="center"><a href="https://github.com/DJFulton09" target="_blank">My GitHub Profile</a></p>
+                    </p>
+                </div>
+            <!--Right column-->
+                <div class="Column_2">
+                    <a href="https://github.com/the-tech-academy" target="_blank"><img src="./images/github_logo.png" alt="Github logo"></a>
+                </div>
+        </div>
+        
+    <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+                <div class="Column_2 Column_tall">
+                    <img src="./images/email.jpg" alt="Contact_Image">
+                </div>
+            <!--Contact form, right column-->
+                <div class="Column_1 Column_tall">
+                    <h1>Contact</h1>
+                    <!--this is where and how to send the form data-->
+                    <form action="https://formspree.io/f/mpzepqqk" method="POST"> <!--added my endpoint for formspree-->
+                        <label>Name:</label>
+                            <input type="text" placeholder="Please enter your name here">
+                        <label>Email:</label>
+                            <input type="text" id="Email" name="Email" placeholder="Please enter your name here">
+                        <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                    </form>
+                </div>
+        </div>
+
+    <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
